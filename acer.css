@@ -1,0 +1,299 @@
+body{
+    
+margin: 0;
+width: 100%;
+height: 2400px;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 50px;background-color:#f0e9e9;
+}
+.head{
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+.head p {
+    display: inline;
+    font-size: 15px;
+    margin-left: 15px;
+    float: left;
+}
+.head p a{
+    text-decoration: none;
+    color: black;
+}
+.head a:hover{
+    color: black;
+}
+.head1{
+    width: 50%;
+    height: 50px;
+    float: right;
+}
+.head1 p{
+    display: inline;
+    float: right;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.head1 a{
+    text-decoration: none;
+    color: black;
+}
+.head1 a:hover{
+    color: black;
+}
+.header2{
+    width: 100%;
+    height:60px;
+}
+.top1{
+    width:30% ;
+    height:60px;
+    float: left;
+}
+.top1 img{
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+
+}
+.top2{
+    width: 50%;
+    height:60px;
+    float: left;
+}
+.top2 p{
+    display: inline;
+    margin-left: 40px;
+    font-size: 17px;
+    float: left;
+}
+.top2 p a{
+    text-decoration: none;
+    color: black;
+}
+.top2 a:hover{
+    color: black;
+
+    
+}
+.top3{
+    width:20% ;
+    height:60px;
+    float: left;
+    display: flex;
+    align-items: center;
+}  
+.scearch{
+    width: 250px;
+    height: 25px;
+    
+}
+.top3 a{
+    color: black;
+}
+.body{
+    width: 100vw;
+    height: 70vh;
+   
+    background-image: url(acer3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.mid{
+    width: 50%;
+    height: 25vh;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+.mid1{
+    width: 41%;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.button1 {
+    width: 10%px;
+    height: 20vh;
+    display: flex;
+    margin-left: 220px;
+    align-items: flex-start;
+
+}
+.btn{
+    width:110px;
+    height:50px;
+    background-color: green;  
+}
+.body1{
+    width: 100%;
+    height: 150px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.laptop{
+    width:100%;
+    height: 300px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-around;
+}
+.laptop p:hover{
+    transform: scale(1.2);
+
+}
+#lap{
+    width: 243px;
+    height: 250px;
+    text-align: center;
+}
+.lap1{
+    width: 200px;
+    height: 200px;
+    
+}
+.lap2{
+    width: 200px;
+    height: 200px;
+}
+.lap3{
+    width: 200px;
+    height: 200px;
+}
+.lap4{
+    width: 200px;
+    height: 200px;
+}
+.lap5{
+    width: 200px;
+    height: 200px;
+}
+.lap6{
+    width: 200px;
+    height: 200px;
+}
+.lower{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.immage:hover{
+    transform: scale(1.1);
+    
+}
+.img1{
+    width: 350px;
+}
+.lower1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.lower1 a{
+    display: flex;
+    margin-top: 40px;
+    font-size: 17px;
+    color: black;
+    text-decoration: underline rgb(31, 228, 31);
+    
+}
+.lower2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.lower2 a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.lower2 a:hover{
+    text-decoration: underline;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: black;
+   
+}
+.left{
+    width: 85%;
+    height: 80px;
+    float: left;
+    font-size: 17px;
+    display: flex;
+}
+.left p{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.right{
+    width: 15%;
+    height: 80px;
+    float: left;
+   
+}
+.fa-facebook{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.fa-instagram{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.fa-twitter{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.fa-youtube{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.leftdown{
+    width:89%;
+    padding-left: 20px;
+    padding-top: 1px;
+    float: left;
+}
+.rightdown{
+    width: 9%;
+    float: left;
+}
+
